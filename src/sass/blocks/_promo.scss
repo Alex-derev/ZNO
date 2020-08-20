@@ -1,0 +1,74 @@
+.promo{
+    padding: 200px 0 135px 0;
+    min-height: 400px;
+    background: url("../../img/background/first_block(2).jpg") center (center / cover) no-repeat;
+    color: white;
+    &_text{
+        width: 685px;
+    }
+    &_header{
+        font-size: 40px;
+        font-weight: 700;
+        color: #29B2E6;
+        span{
+            color: #ffdb2f;
+        }
+    }
+    &_list{
+        display: flex;
+        justify-content: space-between;
+        font-size: 23px;
+        padding-top: 30px;
+    }
+    &_list-first{
+        width: 250px;
+        li{
+            padding-bottom: 40px;
+        }
+        li:first-child{
+            color: #FFDB2F;
+            span{
+                color: white;
+            }
+        }
+        li:last-child{
+            color: #29B2E6;
+            span{
+                color: white;
+            }
+        }
+    }
+    &_list-second{
+        width: 250px;
+        padding-right: 40px;
+        li{
+            padding-bottom: 40px;
+        }
+        li:first-child{
+            color: #29B2E6;
+            span{
+                color: white;
+            }
+        }
+        li:last-child{
+            color: #FFDB2F;
+            span{
+                color: white;
+            } 
+        }
+    }
+    &_main{
+        display: flex;
+        justify-content: space-between;
+    }
+    .form{
+        padding-top: 152px;
+        &_descr{
+            text-align: center;
+            font-size: 30px;
+        }
+        .button_submit {
+            margin-bottom: 15px;
+        }
+    }
+}
