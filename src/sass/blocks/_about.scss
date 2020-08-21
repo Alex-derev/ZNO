@@ -9,11 +9,6 @@
             height: 380px;
             margin-right: 150px;
     }
-     &__h1{
-        text-align: center;
-        font-size: 40px;
-        margin-top: 0px;
-     }
      &__h3 {
          text-align: center;
          font-size: 30px;
@@ -30,6 +25,7 @@
          background-color: white;
          color: black;
          margin: 0  auto 100px auto;
+         cursor: pointer
      }
      &__tab {
          width: 133px;
